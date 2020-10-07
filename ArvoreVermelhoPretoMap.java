@@ -1,7 +1,5 @@
 package ed2_atividade02;
 
-import ed2_atividade01.ArvoreAVLMap;
-
 import java.util.Set;
 
 public class ArvoreVermelhoPretoMap<K extends Comparable<K>, V> implements MyMap<K, V>{
