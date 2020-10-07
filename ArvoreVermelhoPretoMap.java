@@ -284,7 +284,7 @@ public class ArvoreVermelhoPretoMap<K extends Comparable<K>, V> implements MyMap
         no.setSize(1 + size(no.getEsquerda()) + size(no.getDireita()));
         return no;
     }
-
+ 
     public void emOrdem() {
         emOrdem(this.raiz);
     }
